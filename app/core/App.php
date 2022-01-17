@@ -21,8 +21,9 @@ class App
         $this->controller = new $this->controller;
 
         //method
-        if(isset($url[1]) ) 
-           if( method_exists(object, method_nama) )
+        if(isset($url[1]) ) {
+        //    if( method_exists(object, method_nama) ) 
+        }
     }
 
     public function parse_url()
