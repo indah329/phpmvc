@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html . lang="en"> 
+<html lang="en"> 
 <head> 
    <meta charset="UTF-8">
    <title>Halaman <?= $data[ 'judul'];?></title> 
@@ -16,7 +16,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="<?= BASEURL; ?>">Home</a> 
-      <a class="nav-item nav-link" href="<?=pelajar; ?>/about">pelajar</a>
+      <a class="nav-item nav-link" href="<?=BASEURL; ?>/pelajar">pelajar</a>
       <a class="nav-item nav-link" href="<?=BASEURL; ?>/about">About</a>
     </div>
   </div>
