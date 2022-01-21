@@ -18,7 +18,7 @@
       <li class="list-group-item">
         <?= $plj['nama']; ?>
         <a href="<?= BASEURL; ?>/pelajar/hapus/<?= $plj['id']; ?>" class="badge bg-danger float-end me-1"  onclick="return confirm('yakin?')">hapus</a>
-        <a href="<?= BASEURL; ?>/pelajar/ubah/<?= $plj['id']; ?>" class="badge bg-warning float-end me-1" data-bs-toggle="modal" data-bs-target="#formModal" data-id="<? $plj['id']; ?>">ubah</a>
+        <a href="<?= BASEURL; ?>/pelajar/ubah/<?= $plj['id']; ?>" class="badge bg-warning float-end me-1" tampi data-bs-toggle="modal" data-bs-target="#formModal" data-id="<? $plj['id']; ?>">ubah</a>
         <a href="<?= BASEURL; ?>/pelajar/detail/<?= $plj['id']; ?>" class="badge bg-primary float-end me-1">detail</a>
         
 
